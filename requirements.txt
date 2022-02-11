@@ -2,7 +2,7 @@
 #Flask-Script==0.3.3
 #Flask-Sendmail==0.1
 #-e git+https://github.com/ajford/flask-sendmail.git#egg=master
-#Jinja2==2.6
+#Jinja2==2.11.3
 #Werkzeug==0.8.3
 #argparse==1.2.1
 #htables==0.5.1
@@ -32,7 +32,7 @@ greenlet==0.4.15
 htables==0.5.1
 html5lib==1.0.1
 isodate==0.6.0
-Jinja2==2.6
+Jinja2==2.11.3
 meld3==2.0.0
 mock==0.8.0
 monotonic==1.5
