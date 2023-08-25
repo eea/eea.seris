@@ -89,3 +89,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# sources
+src/
+
+# custom dev scripts
+run

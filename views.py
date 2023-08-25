@@ -370,7 +370,7 @@ def reports_rdf():
     theme = Namespace('https://www.eea.europa.eu/themes/')
     bibtex = Namespace('http://purl.org/net/nknouf/ns/bibtex#')
     seris = Namespace(
-        'https://forum.eionet.europa.eu/nrc-state-environment/seris/ontology/'
+        'https://forum.eionet.europa.eu/eionet-state-environment-group/seris/ontology/'
         'schema#')
 
     for entry in export:
