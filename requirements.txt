@@ -1,4 +1,4 @@
-#Flask==0.8
+#Flask==1.0
 #Flask-Script==0.3.3
 #Flask-Sendmail==0.1
 #-e git+https://github.com/ajford/flask-sendmail.git#egg=master
@@ -24,7 +24,7 @@ dnspython==1.16.0
 enum34==1.1.6
 eventlet==0.25.1
 Fabric==1.4.1
-Flask==0.8
+Flask==1.0
 Flask-Script==0.3.3
 -e git+https://github.com/ajford/flask-sendmail.git@65f41c0e943a70cb599d60c4bfe11a3b9f273355#egg=Flask_Sendmail
 flatland==0.8
