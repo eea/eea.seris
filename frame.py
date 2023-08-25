@@ -48,7 +48,7 @@ def get_frame_before_request():
     for name in app.config.get('FRAME_COOKIES', []):
         if name in flask.request.cookies:
             forwarded_cookies[name] = flask.request.cookies[name]
-    response = requests.get(url, cookies=forwarded_cookies)
+    response = requests.get(url, cookies=forwarded_cookies, verify=False)
     if response.status_code != 200:
         if not app.debug:
             raise Exception('Frame request returned an error code: {}.'.format(
