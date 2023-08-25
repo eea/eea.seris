@@ -11,7 +11,7 @@
 #requests==0.11.1
 #simplejson==2.5.0
 #path.py==2.2.2
-#supervisor==3.0a12
+#supervisor==3.0.1
 #psycopg2==2.4.5
 #rdflib==4.0.1
 #raven==5.1.1
@@ -51,7 +51,7 @@ six==1.14.0
 sparql-client==3.4
 SPARQLWrapper==1.8.5
 ssh==1.7.13
-supervisor==3.0a12
+supervisor==3.0.1
 unittest2==0.5.1
 webencodings==0.5.1
 Werkzeug==0.8.3
